@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3DB77F2587850D008CBA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB77E2587850D008CBA94 /* AppDelegate.swift */; };
+		3F3DB7812587850D008CBA94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB7802587850D008CBA94 /* SceneDelegate.swift */; };
+		3F3DB7882587850D008CBA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DB7872587850D008CBA94 /* Assets.xcassets */; };
+		3F3DB7962587850E008CBA94 /* imaginatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB7952587850E008CBA94 /* imaginatoTests.swift */; };
+		3F3DB7A12587850E008CBA94 /* imaginatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB7A02587850E008CBA94 /* imaginatoUITests.swift */; };
+		3F3DB7BB2587868B008CBA94 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB7BA2587868B008CBA94 /* Constant.swift */; };
+		3F8C16442588867300B19B9A /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C16432588867300B19B9A /* CustomAlertController.swift */; };
+		3F8C16482588B4BF00B19B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C16462588B4BF00B19B9A /* Main.storyboard */; };
+		3F8C16492588B4BF00B19B9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C16472588B4BF00B19B9A /* LoginViewController.swift */; };
+		3F8C16502588B4D000B19B9A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C164B2588B4D000B19B9A /* LoginViewModel.swift */; };
+		3F8C165E2589D57B00B19B9A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C165D2589D57B00B19B9A /* User.swift */; };
+		3F8C16602589D80D00B19B9A /* RESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C165F2589D80D00B19B9A /* RESTClient.swift */; };
+		71670017F357AD4071DFEFBE /* Pods_imaginatoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC210C5A798494A1512AB91 /* Pods_imaginatoTests.framework */; };
+		E28F0F592C259BB09A6323E9 /* Pods_imaginato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638FDB45F5D54F9EAFECD496 /* Pods_imaginato.framework */; };
+		F89D2BD97BFB8A09B6DB9EF9 /* Pods_imaginato_imaginatoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44536CEC63C498DADE663F4F /* Pods_imaginato_imaginatoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3DB7922587850E008CBA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3DB7732587850C008CBA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3DB77A2587850D008CBA94;
+			remoteInfo = imaginato;
+		};
+		3F3DB79D2587850E008CBA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3DB7732587850C008CBA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3DB77A2587850D008CBA94;
+			remoteInfo = imaginato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124BA7CF3C5863052E68E1A0 /* Pods-imaginato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imaginato.release.xcconfig"; path = "Target Support Files/Pods-imaginato/Pods-imaginato.release.xcconfig"; sourceTree = "<group>"; };
+		1299482E15B0CBAB85300DE2 /* Pods-imaginatoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imaginatoTests.debug.xcconfig"; path = "Target Support Files/Pods-imaginatoTests/Pods-imaginatoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F3DB77B2587850D008CBA94 /* imaginato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imaginato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3DB77E2587850D008CBA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3DB7802587850D008CBA94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F3DB7872587850D008CBA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3DB78C2587850D008CBA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3DB7912587850E008CBA94 /* imaginatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imaginatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3DB7952587850E008CBA94 /* imaginatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imaginatoTests.swift; sourceTree = "<group>"; };
+		3F3DB7972587850E008CBA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3DB79C2587850E008CBA94 /* imaginatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imaginatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3DB7A02587850E008CBA94 /* imaginatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imaginatoUITests.swift; sourceTree = "<group>"; };
+		3F3DB7A22587850E008CBA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3DB7BA2587868B008CBA94 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3F8C16432588867300B19B9A /* CustomAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		3F8C16462588B4BF00B19B9A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F8C16472588B4BF00B19B9A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F8C164B2588B4D000B19B9A /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3F8C165D2589D57B00B19B9A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3F8C165F2589D80D00B19B9A /* RESTClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTClient.swift; sourceTree = "<group>"; };
+		44536CEC63C498DADE663F4F /* Pods_imaginato_imaginatoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imaginato_imaginatoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B228F0C7D454391374D4167 /* Pods-imaginatoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imaginatoTests.release.xcconfig"; path = "Target Support Files/Pods-imaginatoTests/Pods-imaginatoTests.release.xcconfig"; sourceTree = "<group>"; };
+		57871F43D98998047FD8D7D4 /* Pods-imaginato-imaginatoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imaginato-imaginatoUITests.release.xcconfig"; path = "Target Support Files/Pods-imaginato-imaginatoUITests/Pods-imaginato-imaginatoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		638FDB45F5D54F9EAFECD496 /* Pods_imaginato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imaginato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A082F1BDCA67A0658BBB25 /* Pods-imaginato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imaginato.debug.xcconfig"; path = "Target Support Files/Pods-imaginato/Pods-imaginato.debug.xcconfig"; sourceTree = "<group>"; };
+		6CC210C5A798494A1512AB91 /* Pods_imaginatoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imaginatoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3382ED8E5E50A5E45CC3BEB /* Pods-imaginato-imaginatoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imaginato-imaginatoUITests.debug.xcconfig"; path = "Target Support Files/Pods-imaginato-imaginatoUITests/Pods-imaginato-imaginatoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3DB7782587850D008CBA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28F0F592C259BB09A6323E9 /* Pods_imaginato.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3DB78E2587850E008CBA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71670017F357AD4071DFEFBE /* Pods_imaginatoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3DB7992587850E008CBA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89D2BD97BFB8A09B6DB9EF9 /* Pods_imaginato_imaginatoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3DB7722587850C008CBA94 = {
+			isa = PBXGroup;
+			children = (
+				3F3DB77D2587850D008CBA94 /* imaginato */,
+				3F3DB7942587850E008CBA94 /* imaginatoTests */,
+				3F3DB79F2587850E008CBA94 /* imaginatoUITests */,
+				3F3DB77C2587850D008CBA94 /* Products */,
+				B670C5D07E669E5D9C09B0E7 /* Pods */,
+				D54BC8BEB298568ED89FDAE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3DB77C2587850D008CBA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DB77B2587850D008CBA94 /* imaginato.app */,
+				3F3DB7912587850E008CBA94 /* imaginatoTests.xctest */,
+				3F3DB79C2587850E008CBA94 /* imaginatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3DB77D2587850D008CBA94 /* imaginato */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C165A2588BBA400B19B9A /* WebService */,
+				3F8C16452588B4BF00B19B9A /* View */,
+				3F8C164C2588B4D000B19B9A /* Model */,
+				3F8C164A2588B4D000B19B9A /* ViewModel */,
+				3F8C16402587A6CF00B19B9A /* Helper */,
+				3F3DB7B925878676008CBA94 /* Resource */,
+				3F3DB77E2587850D008CBA94 /* AppDelegate.swift */,
+				3F3DB7802587850D008CBA94 /* SceneDelegate.swift */,
+				3F3DB7872587850D008CBA94 /* Assets.xcassets */,
+				3F3DB78C2587850D008CBA94 /* Info.plist */,
+			);
+			path = imaginato;
+			sourceTree = "<group>";
+		};
+		3F3DB7942587850E008CBA94 /* imaginatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DB7952587850E008CBA94 /* imaginatoTests.swift */,
+				3F3DB7972587850E008CBA94 /* Info.plist */,
+			);
+			path = imaginatoTests;
+			sourceTree = "<group>";
+		};
+		3F3DB79F2587850E008CBA94 /* imaginatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DB7A02587850E008CBA94 /* imaginatoUITests.swift */,
+				3F3DB7A22587850E008CBA94 /* Info.plist */,
+			);
+			path = imaginatoUITests;
+			sourceTree = "<group>";
+		};
+		3F3DB7B925878676008CBA94 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DB7BA2587868B008CBA94 /* Constant.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3F8C16402587A6CF00B19B9A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C16432588867300B19B9A /* CustomAlertController.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3F8C16452588B4BF00B19B9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C16462588B4BF00B19B9A /* Main.storyboard */,
+				3F8C16472588B4BF00B19B9A /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F8C164A2588B4D000B19B9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C164B2588B4D000B19B9A /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F8C164C2588B4D000B19B9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C165D2589D57B00B19B9A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F8C165A2588BBA400B19B9A /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C165F2589D80D00B19B9A /* RESTClient.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		B670C5D07E669E5D9C09B0E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66A082F1BDCA67A0658BBB25 /* Pods-imaginato.debug.xcconfig */,
+				124BA7CF3C5863052E68E1A0 /* Pods-imaginato.release.xcconfig */,
+				A3382ED8E5E50A5E45CC3BEB /* Pods-imaginato-imaginatoUITests.debug.xcconfig */,
+				57871F43D98998047FD8D7D4 /* Pods-imaginato-imaginatoUITests.release.xcconfig */,
+				1299482E15B0CBAB85300DE2 /* Pods-imaginatoTests.debug.xcconfig */,
+				4B228F0C7D454391374D4167 /* Pods-imaginatoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D54BC8BEB298568ED89FDAE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638FDB45F5D54F9EAFECD496 /* Pods_imaginato.framework */,
+				44536CEC63C498DADE663F4F /* Pods_imaginato_imaginatoUITests.framework */,
+				6CC210C5A798494A1512AB91 /* Pods_imaginatoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3DB77A2587850D008CBA94 /* imaginato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3DB7A52587850E008CBA94 /* Build configuration list for PBXNativeTarget "imaginato" */;
+			buildPhases = (
+				B6B2B9DFD47C4AC903BA67CB /* [CP] Check Pods Manifest.lock */,
+				3F3DB7772587850D008CBA94 /* Sources */,
+				3F3DB7782587850D008CBA94 /* Frameworks */,
+				3F3DB7792587850D008CBA94 /* Resources */,
+				BC184BA591B283177D2A5AA6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imaginato;
+			productName = imaginato;
+			productReference = 3F3DB77B2587850D008CBA94 /* imaginato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3DB7902587850E008CBA94 /* imaginatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3DB7A82587850E008CBA94 /* Build configuration list for PBXNativeTarget "imaginatoTests" */;
+			buildPhases = (
+				B7C0F77E7F334B0D63129B65 /* [CP] Check Pods Manifest.lock */,
+				3F3DB78D2587850E008CBA94 /* Sources */,
+				3F3DB78E2587850E008CBA94 /* Frameworks */,
+				3F3DB78F2587850E008CBA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3DB7932587850E008CBA94 /* PBXTargetDependency */,
+			);
+			name = imaginatoTests;
+			productName = imaginatoTests;
+			productReference = 3F3DB7912587850E008CBA94 /* imaginatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3DB79B2587850E008CBA94 /* imaginatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3DB7AB2587850E008CBA94 /* Build configuration list for PBXNativeTarget "imaginatoUITests" */;
+			buildPhases = (
+				363E11E5F4309857D10B117C /* [CP] Check Pods Manifest.lock */,
+				3F3DB7982587850E008CBA94 /* Sources */,
+				3F3DB7992587850E008CBA94 /* Frameworks */,
+				3F3DB79A2587850E008CBA94 /* Resources */,
+				E3B20DCCB6A020DC5AC19747 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3DB79E2587850E008CBA94 /* PBXTargetDependency */,
+			);
+			name = imaginatoUITests;
+			productName = imaginatoUITests;
+			productReference = 3F3DB79C2587850E008CBA94 /* imaginatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3DB7732587850C008CBA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "rlogical-dev-35";
+				TargetAttributes = {
+					3F3DB77A2587850D008CBA94 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					3F3DB7902587850E008CBA94 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3F3DB77A2587850D008CBA94;
+					};
+					3F3DB79B2587850E008CBA94 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3F3DB77A2587850D008CBA94;
+					};
+				};
+			};
+			buildConfigurationList = 3F3DB7762587850C008CBA94 /* Build configuration list for PBXProject "imaginato" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3DB7722587850C008CBA94;
+			productRefGroup = 3F3DB77C2587850D008CBA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3DB77A2587850D008CBA94 /* imaginato */,
+				3F3DB7902587850E008CBA94 /* imaginatoTests */,
+				3F3DB79B2587850E008CBA94 /* imaginatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3DB7792587850D008CBA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3DB7882587850D008CBA94 /* Assets.xcassets in Resources */,
+				3F8C16482588B4BF00B19B9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3DB78F2587850E008CBA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3DB79A2587850E008CBA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		363E11E5F4309857D10B117C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imaginato-imaginatoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B2B9DFD47C4AC903BA67CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imaginato-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C0F77E7F334B0D63129B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imaginatoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC184BA591B283177D2A5AA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imaginato/Pods-imaginato-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imaginato/Pods-imaginato-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imaginato/Pods-imaginato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B20DCCB6A020DC5AC19747 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imaginato-imaginatoUITests/Pods-imaginato-imaginatoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imaginato-imaginatoUITests/Pods-imaginato-imaginatoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imaginato-imaginatoUITests/Pods-imaginato-imaginatoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3DB7772587850D008CBA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8C16492588B4BF00B19B9A /* LoginViewController.swift in Sources */,
+				3F8C16502588B4D000B19B9A /* LoginViewModel.swift in Sources */,
+				3F3DB77F2587850D008CBA94 /* AppDelegate.swift in Sources */,
+				3F8C16442588867300B19B9A /* CustomAlertController.swift in Sources */,
+				3F3DB7812587850D008CBA94 /* SceneDelegate.swift in Sources */,
+				3F8C165E2589D57B00B19B9A /* User.swift in Sources */,
+				3F8C16602589D80D00B19B9A /* RESTClient.swift in Sources */,
+				3F3DB7BB2587868B008CBA94 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3DB78D2587850E008CBA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3DB7962587850E008CBA94 /* imaginatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3DB7982587850E008CBA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3DB7A12587850E008CBA94 /* imaginatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3DB7932587850E008CBA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3DB77A2587850D008CBA94 /* imaginato */;
+			targetProxy = 3F3DB7922587850E008CBA94 /* PBXContainerItemProxy */;
+		};
+		3F3DB79E2587850E008CBA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3DB77A2587850D008CBA94 /* imaginato */;
+			targetProxy = 3F3DB79D2587850E008CBA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F3DB7A32587850E008CBA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3DB7A42587850E008CBA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3DB7A62587850E008CBA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A082F1BDCA67A0658BBB25 /* Pods-imaginato.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = imaginato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rlogical.imaginato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3DB7A72587850E008CBA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124BA7CF3C5863052E68E1A0 /* Pods-imaginato.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = imaginato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rlogical.imaginato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F3DB7A92587850E008CBA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1299482E15B0CBAB85300DE2 /* Pods-imaginatoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = imaginatoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rlogical.imaginatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imaginato.app/imaginato";
+			};
+			name = Debug;
+		};
+		3F3DB7AA2587850E008CBA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B228F0C7D454391374D4167 /* Pods-imaginatoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = imaginatoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rlogical.imaginatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imaginato.app/imaginato";
+			};
+			name = Release;
+		};
+		3F3DB7AC2587850E008CBA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3382ED8E5E50A5E45CC3BEB /* Pods-imaginato-imaginatoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = imaginatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rlogical.imaginatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imaginato;
+			};
+			name = Debug;
+		};
+		3F3DB7AD2587850E008CBA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57871F43D98998047FD8D7D4 /* Pods-imaginato-imaginatoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = imaginatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rlogical.imaginatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imaginato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3DB7762587850C008CBA94 /* Build configuration list for PBXProject "imaginato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3DB7A32587850E008CBA94 /* Debug */,
+				3F3DB7A42587850E008CBA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3DB7A52587850E008CBA94 /* Build configuration list for PBXNativeTarget "imaginato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3DB7A62587850E008CBA94 /* Debug */,
+				3F3DB7A72587850E008CBA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3DB7A82587850E008CBA94 /* Build configuration list for PBXNativeTarget "imaginatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3DB7A92587850E008CBA94 /* Debug */,
+				3F3DB7AA2587850E008CBA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3DB7AB2587850E008CBA94 /* Build configuration list for PBXNativeTarget "imaginatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3DB7AC2587850E008CBA94 /* Debug */,
+				3F3DB7AD2587850E008CBA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3DB7732587850C008CBA94 /* Project object */;
+}

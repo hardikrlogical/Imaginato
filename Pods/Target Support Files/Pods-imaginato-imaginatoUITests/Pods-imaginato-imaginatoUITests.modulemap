@@ -1,0 +1,6 @@
+framework module Pods_imaginato_imaginatoUITests {
+  umbrella header "Pods-imaginato-imaginatoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
